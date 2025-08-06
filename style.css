@@ -1,4 +1,4 @@
-* {
+{
     text-decoration: none;
     margin: 0px;
     padding: 0px;
@@ -36,9 +36,9 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #ffffff;
+    background:#f7f4f4;
     z-index: 1;
-    border-bottom: 1px solid #B9375D;
+    border-bottom: 1px solid #d6b5bf;
 }
 
 nav ul {
@@ -95,7 +95,7 @@ a.tbl-biru {
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #f3b1b1;
+    color:#ffffff;
     cursor: pointer;
     font-weight: bold;
 }
@@ -115,7 +115,7 @@ p {
     width: 100%;
 }
 
-.tutor-list {
+.skills-list {
     width: 100%;
     position: relative;
     display: flex;
@@ -132,10 +132,11 @@ p {
     border-radius: 50%;
 }
 
-.kartu.kartu-skills p {
-    font-family: "comic sans ns";
+.kartu-skills p {
+    font-family: "comic sans ms";
     font-weight: 800;
     font-size: 25px;
     text-align: center;
     color: #B9375D;
 }
+
